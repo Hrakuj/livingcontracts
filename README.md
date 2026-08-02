@@ -19,4 +19,4 @@ Proč tam je: Reprezentuje ONEPOST. Systém u uživatele nekončí pouhou notifi
 (Složka model): Obsahuje struktury pro uchovávání dat.
 Proč tam je: protože mě to tak naučili ve škole dělat.
 
-Při vývoji byly použiti AI asistenti pro kontrolu a zrychlení práce.
+Při vývoji byly použiti AI asistenti(Calude code a Gemini) pro kontrolu a zrychlení práce.
