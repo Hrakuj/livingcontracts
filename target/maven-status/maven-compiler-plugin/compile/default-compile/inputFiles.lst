@@ -1,0 +1,9 @@
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/ContractLivingAI.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/model/ContractMetadata.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/model/ContractResult.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/model/ContractUpdate.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/model/LegalAnalysisResult.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/model/LegalReference.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/service/CodexisLegalReasoning.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/service/DatifyExtractor.java
+/home/jakubf/Downloads/livingcontracts-ai/src/main/java/cs/jakubf/livingcontracts/service/OnePostAgent.java
