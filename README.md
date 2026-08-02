@@ -1,4 +1,4 @@
-#LIVING CONTRACTS
+# LIVING CONTRACTS
 Nástroj na hledání změn v legislativě týkající se specifické smlouvy a potřebných změn.
 
 (ContractLivingAI.java): vstupní bod
