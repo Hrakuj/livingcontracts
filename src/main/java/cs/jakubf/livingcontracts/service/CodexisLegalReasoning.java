@@ -12,6 +12,7 @@ import java.util.Map;
 
 public class CodexisLegalReasoning {
 
+    @SuppressWarnings("unused")
     private final LocalDate today;
     private final Map<String, LegalStatus> lawDatabase = new HashMap<>();
 
@@ -58,6 +59,7 @@ public class CodexisLegalReasoning {
                 "Kritický – smlouva odkazuje na neúčinný právní předpis!"));
     }
 
+    @SuppressWarnings("unused")
     public List<LegalAnalysisResult> analyzeReferences(
             List<LegalReference> references,
             ContractMetadata contractInfo) {
@@ -117,12 +119,5 @@ public class CodexisLegalReasoning {
         }
 
         return results;
-    }
-
-    // Pomocná metoda pro extrakci kontextu
-    private String getContext(String text, int position) {
-        int start = Math.max(0, position - 50);
-        int end = Math.min(text.length(), position + 50);
-        return text.substring(start, end);
     }
 }
