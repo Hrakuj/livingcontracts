@@ -141,7 +141,7 @@ public class ContractLivingAI {
                 System.out.println("Návrh připraven" +
                         (update.readyForDispatch() ? "k odeslání" : "čeká na revizi"));
             } else {
-                System.out.println("   📧 ONEPOST: Smlouva je aktuální – bez potřeby změny");
+                System.out.println("ONEPOST: Smlouva je aktuální – bez potřeby změny");
             }
 
             System.out.println("Hotovo\n");

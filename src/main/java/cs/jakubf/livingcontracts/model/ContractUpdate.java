@@ -14,8 +14,8 @@ public record ContractUpdate(
         StringBuilder sb = new StringBuilder();
         sb.append("\n");
         sb.append("╔═══════════════════════════════════════════════════════════════╗\n");
-        sb.append("║  📄 ").append(contractFile).append("\n");
-        sb.append("║  🔄 NÁVRH AKTUALIZACE SMLOUVY\n");
+        sb.append("║  ").append(contractFile).append("\n");
+        sb.append("║   NÁVRH AKTUALIZACE SMLOUVY\n");
         sb.append("╠═══════════════════════════════════════════════════════════════╣\n");
         sb.append("║\n");
         sb.append("║  PŮVODNÍ ZNĚNÍ:\n");
@@ -27,8 +27,8 @@ public record ContractUpdate(
         sb.append("║  PRŮVODNÍ DOPIS:\n");
         sb.append("║  ").append(coverLetter.replace("\n", "\n║  ")).append("\n");
         sb.append("║\n");
-        sb.append("║  📤 PŘÍJEMCE: ").append(counterpartyName).append(" (IČO ").append(counterpartyIco).append(")\n");
-        sb.append("║  📬 STAV: ").append(readyForDispatch ? "PŘIPRAVENO K ODESLÁNÍ ✅" : "ČEKÁ NA REVIZI ⏳")
+        sb.append("║  PŘÍJEMCE: ").append(counterpartyName).append(" (IČO ").append(counterpartyIco).append(")\n");
+        sb.append("║  STAV: ").append(readyForDispatch ? "PŘIPRAVENO K ODESLÁNÍ" : "ČEKÁ NA REVIZI")
                 .append("\n");
         sb.append("╚═══════════════════════════════════════════════════════════════╝\n");
         return sb.toString();
